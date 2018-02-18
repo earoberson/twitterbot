@@ -1,18 +1,10 @@
 defmodule Twitterbot do
+  use Application
   @moduledoc """
   Documentation for Twitterbot.
   """
 
-  @doc """
-  Hello world.
-
-  ## Examples
-
-      iex> Twitterbot.hello
-      :world
-
-  """
-  def hello do
-    :world
+  def start(_type, _args) do
+    {:ok, _pid} = Twitterbot.TStream.start([])
   end
 end

@@ -2,6 +2,8 @@
 
 **TODO: Add description**
 
+[![Build Status](https://travis-ci.org/earoberson/twitterbot.svg?branch=master)](https://travis-ci.org/earoberson/twitterbot)
+
 ## Installation
 
 If [available in Hex](https://hex.pm/docs/publish), the package can be installed

@@ -1,8 +1,7 @@
 defmodule TwitterbotTest do
-  use ExUnit.Case
+  use ExUnit.Case, async: true
   doctest Twitterbot
 
   test "greets the world" do
-    assert Twitterbot.hello() == :world
   end
 end
